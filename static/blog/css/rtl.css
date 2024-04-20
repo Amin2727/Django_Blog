@@ -1,0 +1,284 @@
+/* فونت ها */
+@font-face {
+    font-family: Sahel;
+    src: url('Sahel.eot');
+    src: url('Sahel.eot?#iefix') format('embedded-opentype'),
+         url('Sahel.woff2') format('woff2'),
+         url('Sahel.woff') format('woff'),
+         url('Sahel.ttf') format('truetype');
+  }
+
+
+@font-face {
+    font-family: Sahel-Bold;
+    src: url('Sahel-Bold.eot');
+    src: url('Sahel-Bold.eot?#iefix') format('embedded-opentype'),
+         url('Sahel-Bold.woff2') format('woff2'),
+         url('Sahel-Bold.woff') format('woff'),
+         url('Sahel-Bold.ttf') format('truetype');
+  }
+/* فونت ها */
+
+/* تنظیمات عمومی سایت*/
+body{
+    direction: rtl;
+    text-align: right;
+    font-family: 'Sahel';
+    font-size: 16.5px;
+    
+}
+
+.masthead{
+    width:1200;
+    height:500px;
+}
+
+.search {
+    margin-right: 2px;
+    font-family: 'Sahel-Bold';
+}
+
+
+
+.alert-danger {
+    color: #842029;
+    font-family: 'Sahel-Bold';
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+    margin-right: 90px;
+}
+
+
+.btn {
+    letter-spacing: 0.0625em;
+    margin-right: 30px;
+  }
+
+
+.vizhe {
+    width: 100%;
+}
+
+.popular_articles.alert.alert-primary {
+    width: 100%;
+    margin-right: 1px;
+    margin-top: -37px;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: 'Sahel-Bold';
+}
+
+.navbar-nav{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:-40px;
+}
+
+.post-subtitle {
+    font-family: 'Sahel';
+    color:#0e2d3a;
+    line-height: 30px;
+}
+
+.post-preview > .post-meta {
+    width:100%;
+    margin-top: 40px;
+    text-align: left;
+    font-family: 'Sahel-Bold';
+    font-size: 1.00rem;
+    font-style: italic;
+}
+
+.post-preview{
+    border: 0.2px solid #b1a9a9;
+    padding:19px;
+    font-family: 'Sahel-Bold';
+    margin-bottom: 9px;
+}
+
+.post-preview > a > .post-title {
+    font-size: 1.20rem;
+    font-family: 'Sahel-Bold';
+    color: #281e1e;
+}
+
+h3, .h3 {
+    font-size: 1.20rem;
+}
+
+.pager-botton {
+    float: left !important;
+    margin-bottom: 14px;
+}
+
+
+.col-md-10.col-lg-8.col-xl-7 {
+    width: 100%;
+    margin-top: 22px;
+    padding:33px;
+  }
+
+.mb-4 {
+    margin-top: 0rem !important;
+    margin-bottom: 2.5rem !important;
+    margin:40px;
+  }
+
+.SVG{
+    enable-background:new 0 0 352.62 352.62
+}
+
+/* تنظیمات عمومی سایت*/
+
+
+/*این مربوط به منوهای بالای صفحه ست*/
+li.nav-item > a.nav-link {
+    font-size: 16px;
+    font-family: 'Sahel-Bold';
+    letter-spacing: 0.0625em;
+    text-transform: uppercase;
+    
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #0a0504;
+    transition:0.5s;
+    display: inline;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    background-color:rgb(199, 131, 5);
+    color:#ffffff;
+}
+
+
+.px-lg-3 {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+} 
+
+
+.nav ul {
+    padding-right: 0;
+}
+  
+.nav ul li {
+    border-bottom: none;
+    height:86px;
+    line-height: 60px;
+    font-size: 16.5px;
+    display: inline-block;
+    margin: 0 auto;
+}
+  
+.nav ul li a {
+    text-decoration: none;
+    color:#000000;
+    display: block;
+    transition: .3s background-color;
+    padding:0 24px;
+}
+  
+  
+.nav a {
+    border-bottom: none;
+  }
+  
+.nav li ul {
+    position: absolute;
+    display:none;
+    width:inherit;
+}
+  
+.nav li:hover ul {
+    display:block;
+}
+  
+.nav ul li ul li {
+    display:block;
+    float:right !important;
+    height: 50px;
+    line-height: 100px;
+}
+  
+.nav ul li ul li ul{
+    position: absolute;
+    right: 100%;
+    top: 0;
+    display: none !important;
+}
+  
+  
+.nav ul > li > ul > li > ul > li:hover > ul {
+    display:block !important;
+}
+
+.form {
+    margin: -5px 10px auto;
+}
+
+.n {
+    background-color: #889eaf;
+}
+
+
+#navbarSupportedContent{
+    margin-top: 30px;
+}
+
+.form-inline.mt-3 {
+    position: absolute;
+    top: -7px;
+    left: 5px;
+}
+/*این مربوط به منوهای بالای صفحه ست*/
+
+
+.fa {
+    font-size: 40px;
+    width: 60px;
+    margin: 5px 5px;
+}
+
+.fa.fa-bars {
+    padding: 1px;
+    border-color: #000000 !important;
+    border-width: 2px !important;
+    font-size: 25px;
+    width: 40px;
+    text-decoration: none;
+    margin: 2px 2px;
+}
+
+
+h1 {
+    color: #eff5ef;
+}/*  This is for footer's icons */
+
+/* برای سرچ باکس */
+button {
+    float: left;
+    margin-right: 3px;
+}
+
+header.masthead {
+    padding-top: 23.5rem;
+    padding-bottom: 5.5rem;
+  }
+/* برای سرچ باکس */
+
+/* برای فوتر صفحه */
+.Jumbotron{
+    font-size: 14pt;
+    background-color: #889eaf;
+    padding:2px;
+    margin-top: 20px;
+}
+
+.card{
+    background-color: #889eaf;
+}
+/* برای فوتر صفحه */
+

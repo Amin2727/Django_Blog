@@ -1,0 +1,21 @@
+{% extends 'blog/list.html' %}
+
+{% block header %}
+  <div class="popular_articles alert alert-primary" style="font-family: Sahel-Bold">
+    <h3 style="font-family: Sahel-Bold;">آرشیو مقاله ها</h3>
+        <details>
+          <summary>کلیک کنید</summary>
+          {% for a in popular_articles %}
+            <div><a href="{% url 'blog:detail' a.slug %}" style="color:#022964"> {{a.title}} </div></a>
+          {% endfor %}
+        </details>
+  </div>
+{% endblock %}
+
+{% block previous_page_url %}
+  {% url 'blog:home' page_obj.previous_page_number %}
+{% endblock %}
+
+{% block next_page_url %}
+  {% url 'blog:home' page_obj.next_page_number %}
+{% endblock %}
