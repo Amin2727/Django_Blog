@@ -1,1 +1,1 @@
-لطفا پروژه را بافیلترشکن اجرا کنید.
+Please run the program with vpn.
